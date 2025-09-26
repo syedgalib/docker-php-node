@@ -31,20 +31,52 @@ It is designed to simplify setup and speed up development workflows.
 ---
 
 ## Use Cases
-- Web application development with PHP + Node.js stack
-- Running WordPress, Laravel, Symfony, or custom PHP apps
-- Frontend asset compilation using Node.js, Yarn, or PNPM
-- Rapid prototyping with pre-installed development tools
-
----
-
-## Why Use This Image
-- Fully set up developer environment in a single image  
-- No need to manually install PHP extensions, Node.js, or package managers  
-- Optimized for both PHP backend and modern frontend workflows
+- Web application development with PHP + Node.js stack  
+- Running WordPress, Laravel, Symfony, or custom PHP apps  
+- Frontend asset compilation using Node.js, Yarn, or PNPM  
+- Rapid prototyping with pre-installed development tools  
 
 ---
 
 ## Pull the Image
 ```bash
 docker pull syedgalibahmed/php-node
+```
+
+---
+
+## Quick Start
+
+Run a container and mount your project into `/var/www/html`:
+
+```bash
+docker run -it --rm \
+  -v $(pwd):/var/www/html \
+  -w /var/www/html \
+  syedgalibahmed/php-node bash
+```
+
+Inside the container, you can use:
+
+```bash
+# Install PHP dependencies
+composer install
+
+# Install Node.js dependencies
+yarn install
+# or
+pnpm install
+
+# Run PHP commands
+php artisan serve
+# or any other PHP CLI tool
+```
+
+---
+
+## Example Project
+
+For a ready-to-use Docker + PHP + Node.js starter setup, check out:  
+👉 [wp-docker-starter](https://github.com/syedgalib/wp-docker-starter)
+
+---
