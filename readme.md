@@ -1,6 +1,19 @@
 # php-node
 
-A versatile Docker image based on **PHP 7.4.33-FPM** with a full developer stack for modern web applications. This image comes pre-configured with essential tools for PHP, Node.js, and frontend/backend development. It is designed to simplify setup and speed up development workflows.
+A versatile Docker image based on **PHP 7.4.33-FPM** with a full developer stack for modern web applications.  
+This image comes pre-configured with essential tools for PHP, Node.js, and frontend/backend development.  
+It is designed to simplify setup and speed up development workflows.
+
+👉 **Docker Hub Repository:** [syedgalibahmed/php-node](https://hub.docker.com/r/syedgalibahmed/php-node/)
+
+---
+
+## Badges
+![Docker Pulls](https://img.shields.io/docker/pulls/syedgalibahmed/php-node)
+![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/syedgalibahmed/php-node)
+![Docker Stars](https://img.shields.io/docker/stars/syedgalibahmed/php-node)
+
+---
 
 ## Key Features
 - **PHP 7.4.33-FPM** with essential extensions enabled:
@@ -15,16 +28,22 @@ A versatile Docker image based on **PHP 7.4.33-FPM** with a full developer stack
 - **Yarn** and **PNPM** for fast, efficient package management
 - **msmtprc** configured for sending emails via SMTP
 
+---
+
 ## Use Cases
-- Web application development with PHP + Node.js stack  
-- Running WordPress, Laravel, Symfony, or custom PHP apps  
-- Frontend asset compilation using Node.js, Yarn, or PNPM  
-- Rapid prototyping with pre-installed development tools  
+- Web application development with PHP + Node.js stack
+- Running WordPress, Laravel, Symfony, or custom PHP apps
+- Frontend asset compilation using Node.js, Yarn, or PNPM
+- Rapid prototyping with pre-installed development tools
+
+---
 
 ## Why Use This Image
 - Fully set up developer environment in a single image  
 - No need to manually install PHP extensions, Node.js, or package managers  
-- Optimized for both PHP backend and modern frontend workflows  
+- Optimized for both PHP backend and modern frontend workflows
+
+---
 
 ## Pull the Image
 ```bash
