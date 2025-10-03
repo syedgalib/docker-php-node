@@ -24,7 +24,7 @@ It is designed to simplify setup and speed up development workflows.
   - `mbstring`
   - `zip`
 - **Composer** for PHP dependency management
-- **Node.js 22.19.0** for modern JavaScript development
+- **Node.js 22.20.0** for modern JavaScript development
 - **Yarn** and **PNPM** for fast, efficient package management
 - **msmtprc** configured for sending emails via SMTP
 
