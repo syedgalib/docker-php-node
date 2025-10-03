@@ -1,7 +1,7 @@
 FROM php:7.4.33-fpm
 
 # Set Node.js version
-ENV NODE_VERSION=22.19.0
+ENV NODE_VERSION=22.20.0
 
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
